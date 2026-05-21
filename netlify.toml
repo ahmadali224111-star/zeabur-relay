@@ -1,2 +1,11 @@
-[build]
-  functions = "netlify/functions"
+[[redirects]]
+  from = "/p4r34m/*"
+  to = "/.netlify/functions/relay/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/relay"
+  status = 200
+  force = true
