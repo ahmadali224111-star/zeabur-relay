@@ -1,4 +1,2 @@
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/relay"
-  status = 200
+[build]
+  functions = "netlify/functions"
