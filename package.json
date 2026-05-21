@@ -1,12 +1,14 @@
 {
   "name": "zeabur-relay",
   "version": "1.0.0",
+  "description": "Vless Relay for Netlify",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.19.2",
-    "http-proxy-middleware": "^3.0.0"
-  },
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "serverless-http": "^3.2.0"
   }
 }
